@@ -11,7 +11,7 @@
 **lessDir** : path to .less files - _defaults to **current directory**_
 
 **notify** : use growl / notify notifications - _defaults to **true**_, 
->set **notify** to false if growl/notify is not installed
+	set **notify** to false if growl/notify is not installed
 
 **recursive** : do a recursive file search - _defaults to **false**_
 
