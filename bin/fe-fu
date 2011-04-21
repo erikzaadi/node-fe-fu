@@ -1,0 +1,27 @@
+#! /usr/bin/env node
+// -*- js -*-
+
+global.sys = require(/^v0\.[012]/.test(process.version) ? "sys" : "util");
+
+var feFu = require("fe-fu"),
+	argv = require('optimist')
+			.default("jsDir", "./")
+			.default("lessDir", "./")
+			.default("notify", "true")
+			.default("watch", "true")
+			.default("recursive", "false")
+			.argv;
+
+if (argv.h || argv.help) {
+  feFu.showHelp();
+  process.exit(0);
+}
+
+feFu.startFeFu(
+	{ 
+		"jsDir" : argv.jsDir,
+		"lessDir" : argv.lessDir,
+		"notify" : argv.notify,
+		"watch" : argv.watch,
+		"recursive" : argv.recursive
+	});
