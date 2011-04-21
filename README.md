@@ -20,3 +20,5 @@
 
 ###Roadmap :
 * Support combining files
+* Adding images (Info / Error)
+* Add more optimizations (pngcrushing, html minification, sprites)
