@@ -4,6 +4,7 @@
 global.sys = require(/^v0\.[012]/.test(process.version) ? "sys" : "util");
 
 var feFu = require("fe-fu"),
+//var feFu = require("../lib/fe-fu.js"), //debug version
 	argv = require('optimist')
 			.default("jsDir", "./")
 			.default("lessDir", "./")
@@ -16,6 +17,12 @@ if (argv.h || argv.help) {
   feFu.showHelp();
   process.exit(0);
 }
+
+if (argv.v ||argv.version){
+	feFu.showVersion();
+	process.exit(0);
+}
+
 
 feFu.startFeFu(
 	{ 

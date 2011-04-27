@@ -1,4 +1,4 @@
-#Node.js Frontend Fu version 0.1.2
+#Node.js Frontend Fu version 0.1.3
 ***
 ###Usage: 
     fe-fu --parameter value
@@ -17,8 +17,8 @@
 
 **watch** : watch .js/.less files for changes	- _defaults to **true**_
 
+***
+###See Roadmap.md for what's planned
 
-###Roadmap :
-* Support combining files
-* Adding images (Info / Error)
-* Add more optimizations (pngcrushing, html minification, sprites)
+***
+###Licensed under the Apache license, See LICENSE
