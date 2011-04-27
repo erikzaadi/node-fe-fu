@@ -18,7 +18,7 @@
 **watch** : watch .js/.less files for changes	- _defaults to **true**_
 
 ***
-###See Roadmap.md for what's planned
+####See the [Roadmap](https://github.com/erikzaadi/node-fe-fu/blob/master/Roadmap.md) for what's planned
 
 ***
-###Licensed under the Apache license, See LICENSE
+####Licensed under the Apache license, See [LICENSE](https://github.com/erikzaadi/node-fe-fu/blob/master/LICENSE)
