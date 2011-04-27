@@ -1,4 +1,4 @@
-#Node.js Frontend Fu version 0.1.3
+#Node.js Frontend Fu version 0.1.4
 ***
 ###Usage: 
     fe-fu --parameter value

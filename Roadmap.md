@@ -1,11 +1,11 @@
-#Node.js Frontend Fu version 0.1.2
+#Node.js Frontend Fu version 0.1.4
 ***
 ###Roadmap :
 * Support combining files
-* Adding images (Info / Error)
-*	Add more optimizations
+* <del>Adding images (Info / Error)</del>**Done!**
+*	Add more options
 	1. pngcrushing
 	2. coffeescript
 	3. html minification
 	4. sprites
-	5. join files
+* Read from configuration file in addition to arguments
