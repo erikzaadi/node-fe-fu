@@ -1,4 +1,4 @@
-#Node.js Frontend Fu version 0.1.4
+#Node.js Frontend Fu version 0.1.5
 ***
 ###Roadmap :
 *  Unit tests
