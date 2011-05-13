@@ -7,6 +7,8 @@
 
 * <del>Adding images (Info / Error)</del> **Done!**
 
+* add support for notifying only errors
+
 *	Add more <del>options</del> modules
 	1. pngcrushing
 	2. [coffeescript](https://github.com/jashkenas/coffee-script)
