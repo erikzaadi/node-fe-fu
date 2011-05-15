@@ -3,14 +3,16 @@
 
 global.sys = require(/^v0\.[012]/.test(process.version) ? "sys" : "util");
 
-var feFu = require("fe-fu"),
-//var feFu = require("../lib/fe-fu.js"), //debug version
+//var feFu = require("fe-fu"),
+var feFu = require("../lib/fe-fu.js"), //debug version
 	argv = require('optimist')
 			.default("jsDir", "./")
 			.default("lessDir", "./")
 			.default("notify", "true")
 			.default("watch", "true")
 			.default("recursive", "false")
+			.default("errorsOnly", "true")
+			.default("jsLint", "true")
 			.argv;
 
 if (argv.h || argv.help) {
@@ -30,5 +32,7 @@ feFu.startFeFu(
 		"lessDir" : argv.lessDir,
 		"notify" : argv.notify,
 		"watch" : argv.watch,
-		"recursive" : argv.recursive
+		"recursive" : argv.recursive,
+		"errorsOnly" : argv.errorsOnly,
+		"jsLint" : argv.jsLint
 	});

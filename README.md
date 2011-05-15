@@ -1,4 +1,4 @@
-#Node.js Frontend Fu version 0.1.7
+#Node.js Frontend Fu version 0.1.8
 ***
 ###Usage: 
     fe-fu --parameter value
@@ -16,6 +16,9 @@
 **recursive** : do a recursive file search - _defaults to **false**_
 
 **watch** : watch .js/.less files for changes	- _defaults to **true**_
+
+**errorsOnly** : Notify only on Errors - _defaults to **true**_
+
 
 ***
 ####See the [Roadmap](https://github.com/erikzaadi/node-fe-fu/blob/master/Roadmap.md) for what's planned

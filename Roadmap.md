@@ -1,4 +1,4 @@
-#Node.js Frontend Fu version 0.1.7
+#Node.js Frontend Fu version 0.1.8
 ***
 ###Roadmap :
 *  Unit tests
@@ -7,7 +7,7 @@
 
 * <del>Adding images (Info / Error)</del> **Done!**
 
-* add support for notifying only errors
+* <del>add support for notifying only errors</del> **Done!**
 
 *	Add more <del>options</del> modules
 	1. pngcrushing
