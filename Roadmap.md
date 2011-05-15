@@ -14,6 +14,7 @@
 	2. [coffeescript](https://github.com/jashkenas/coffee-script)
 	3. [html minification](https://github.com/kangax/html-minifier/)
 	4. sprites
+	5. [JSLint](https://github.com/reid/node-jslint)
 
 * Read from configuration file in addition to arguments
 
