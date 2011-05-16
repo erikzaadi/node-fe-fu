@@ -1,4 +1,4 @@
-#Node.js Frontend Fu version 0.1.8
+#Node.js Frontend Fu version 0.1.9
 ***
 ###Usage: 
     fe-fu --parameter value
@@ -19,6 +19,7 @@
 
 **errorsOnly** : Notify only on Errors - _defaults to **true**_
 
+**jsLint** : validate javascript with JSLint - _defaults to **true**_
 
 ***
 ####See the [Roadmap](https://github.com/erikzaadi/node-fe-fu/blob/master/Roadmap.md) for what's planned

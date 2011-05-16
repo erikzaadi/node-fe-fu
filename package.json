@@ -1,11 +1,11 @@
 {
   "name": "fe-fu",
   "description": "Node js Frontend Environment (Transforms .less files and minifies them, minifies javascript with uglify-js)",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "homepage": "http://github.com/erikzaadi/node-fe-fu",
   "repository": {
     "type": "git",
-    "url": "git://github.com/erikzaadi/node-fe-fu.git"
+    "url": "http://github.com/erikzaadi/node-fe-fu.git"
   },
   "author": "Erik Zaadi <erik.zaadi@gmail.com> (http://erikzaadi.com)",
   "main": "./lib/fe-fu.js",

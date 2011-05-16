@@ -1,4 +1,4 @@
-#Node.js Frontend Fu version 0.1.8
+#Node.js Frontend Fu version 0.1.9
 ***
 ###Roadmap :
 *  Unit tests
@@ -14,7 +14,7 @@
 	2. [coffeescript](https://github.com/jashkenas/coffee-script)
 	3. [html minification](https://github.com/kangax/html-minifier/)
 	4. sprites
-	5. [JSLint](https://github.com/reid/node-jslint)
+	5. <del>[JSLint](https://github.com/reid/node-jslint)</del> **Done!**
 
 * Read from configuration file in addition to arguments
 
