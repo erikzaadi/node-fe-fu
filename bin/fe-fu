@@ -3,8 +3,8 @@
 
 global.sys = require(/^v0\.[012]/.test(process.version) ? "sys" : "util");
 
-//var feFu = require("fe-fu"),
-var feFu = require("../lib/fe-fu.js"), //debug version
+var feFu = require("fe-fu"),
+//var feFu = require("../lib/fe-fu.js"), //debug version
 	argv = require('optimist')
 			.default("jsDir", "./")
 			.default("lessDir", "./")
