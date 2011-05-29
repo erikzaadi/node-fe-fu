@@ -5,6 +5,8 @@
 
 * Support combining files
 
+* Separate less so that you can use node-fe-fu to only minify / combine css
+
 * <del>Adding images (Info / Error)</del> **Done!**
 
 * <del>add support for notifying only errors</del> **Done!**
@@ -21,5 +23,6 @@
 * Rewrite main fe-fu script to be more modular :
 
     modules.js => json with { name, parameters, file, condition }  
-    each module => run(File), condition(file), aggregate(files)  
-
+	moduleTypes => Validators, Compilers, Compressors, Aggregators
+    each module => run(File), condition(file)
+	define a pipeline that modules in a waterfall manner (coffee - js - jslint - uglify js)
