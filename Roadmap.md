@@ -25,4 +25,8 @@
     modules.js => json with { name, parameters, file, condition }  
 	moduleTypes => Validators, Compilers, Compressors, Aggregators
     each module => run(File), condition(file)
-	define a pipeline that modules in a waterfall manner (coffee - js - jslint - uglify js)
+    define a pipeline that modules in a waterfall manner (coffee - js - jslint - uglify js)
+
+* Ensure that new files in folders are picked up, notify on deleted files
+
+* Aggregate the results of each file modified to enable combining 
