@@ -17,6 +17,7 @@
 	3. [html minification](https://github.com/kangax/html-minifier/)
 	4. sprites
 	5. <del>[JSLint](https://github.com/reid/node-jslint)</del> **Done!**
+	6. [CssLint](https://github.com/stubbornella/csslint)
 
 * Read from configuration file in addition to arguments
 
