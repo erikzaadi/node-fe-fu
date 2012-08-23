@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/erikzaadi/node-fe-fu.png)](http://travis-ci.org/erikzaadi/node-fe-fu)
 #Node.js Frontend Fu version 0.1.9
 ***
 ###Usage: 
